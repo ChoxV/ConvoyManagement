@@ -19,7 +19,7 @@ Python 3.8+
 Steps
 
 Clone the Repository:
-git clone https://github.com/yourusername/ConvoyManagement.git
+git clone https://github.com/ChoxV/ConvoyManagement.git
 cd ConvoyManagement
 
 
@@ -42,10 +42,7 @@ Copy .env.example to .env and update with your database credentials, API keys, e
 
 Run the Application:
 # Start backend (from backend directory)
-python manage.py runserver
-
-# Start frontend (from frontend directory)
-npm start
+python3 ConvoyManagement.py 
 
 
 
@@ -58,8 +55,6 @@ Use the real-time map to track convoy progress.
 
 Project Structure
 ConvoyManagement/
-├── backend/                # Backend code (e.g., Django/Flask)
-├── frontend/               # Frontend code (e.g., React/Vue)
 ├── docs/                   # Documentation
 ├── scripts/                # Utility scripts
 ├── .env.example            # Environment variable template
